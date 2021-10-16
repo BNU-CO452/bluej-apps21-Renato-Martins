@@ -50,7 +50,7 @@ public class Student
      */
     public void print()
     {
-        System.out.println(" Student ID: " + id + " Name: " + name);
+        System.out.println(" Student ID: " + id + "  Name: " + name);
     }
     
     public void printCourse()
