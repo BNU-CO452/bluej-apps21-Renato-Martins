@@ -1,6 +1,6 @@
 
 /**
- * This class contains information about the modules for the course
+ * This class contains information about the modules for the courses
  * at BNU.
  *
  * @author Renato Martins
@@ -8,27 +8,56 @@
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // instance variables for the module class, code is the course code and title is the course name
+    private String code;
+    private String title;
+    private int credit;
 
     /**
-     * Constructor for objects of class Module
+     * Constructor for Modules
      */
-    public Module()
-    {
-        // initialise instance variables
-        x = 0;
+    public Module(String code, String title)
+    {   
+        this.code = code;
+        this.title = title;
+        credit = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public String getCode()
     {
-        // put your code here
-        return x + y;
+        return code;
+    }
+    
+    public String getTitle()
+    {
+        return title;
+    }
+    
+    public void setCredit(int credit)
+    {
+        this.credit = credit;
+    }
+    
+    /**
+     * This method will print the module name and code
+     */
+    public void print()
+    {
+        printHeading();
+        
+        System.out.println(" Module Code: " + code + ": " + title);
+        System.out.println(" Credits for: " + title + ": " + credit);
+        System.out.println();
+    }
+    
+    /**
+     * Print out the details of the Module to the terminal.
+     */
+    private void printHeading()
+    {
+        System.out.println(" --------------------------------");
+        System.out.println("   App211: Module Details");
+        System.out.println(" --------------------------------");
+        System.out.println();
     }
 }

@@ -1,0 +1,34 @@
+Module module1 = new Module("CO452", "Programming Concepts");
+module1.print();
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452: Programming Concepts
+ Credits for: Programming Concepts: 0
+
+module1.setCredit(15);
+module1.print();
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452: Programming Concepts
+ Credits for: Programming Concepts: 15
+
+Course course1 = new Course("BT1CYS1", "BSc (Hons) Cyber Security");
+course1.addModule(module1);
+course1.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CYS1: BSc (Hons) Cyber Security
+
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452: Programming Concepts
+ Credits for: Programming Concepts: 15
+
