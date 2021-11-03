@@ -1,8 +1,8 @@
 
 /**
- * Write a description of class ModuleMark here.
+ * This Class will be used to create marks for the modules.
  *
- * @author Derek Peacock and Nicholas Day
+ * @author Renato Martins
  * @version 2021-08-18
  */
 public class ModuleMark

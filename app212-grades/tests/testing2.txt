@@ -1,0 +1,40 @@
+Student renato = new Student();
+renato.print();
+ Student ID: 22137731, Renato Martins
+Course cyber = new Course();
+cyber.printModules();
+
+ CO452: Programming Concepts	  15 credits
+ CO456: Web Development	  15 credits
+ CO450: Computer Architecture	  15 credits
+ CO454: Digital Tech	  15 creditsrenato.enrol(cyber);
+renato.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22137731, Renato Martins
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: Programming Concepts	  15 credits
+ CO456: Web Development	  15 credits
+ CO450: Computer Architecture	  15 credits
+ CO454: Digital Tech	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  0	15	F
+
+ CO456: Web Development	  15	50	C
+
+ CO450: Computer Architecture	  15	74	A
+
+ CO454: Digital Tech	  15	88	A
+
+
+ Final Course Grade = C
+cyber.convertToGrade(40)
+    returned Object D
