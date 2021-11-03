@@ -13,7 +13,7 @@ import java.util.*;
  *
  * @version: 1.6 (shapes)
  */
-public class Canvas
+public class Canvas 
 {
     // Note: The implementation of this class (specifically the handling of
     // shape identity and colors) is slightly more complex than necessary. This
@@ -119,7 +119,9 @@ public class Canvas
      * Set the foreground colour of the Canvas.
      * @param  newColour   the new colour for the foreground of the Canvas 
      */
+    Color myPurple = new Color(192, 0, 255); // Color purple
     public void setForegroundColor(String colorString)
+    
     {
         if(colorString.equals("red"))
             graphic.setColor(Color.red);
@@ -135,6 +137,8 @@ public class Canvas
             graphic.setColor(Color.magenta);
         else if(colorString.equals("white"))
             graphic.setColor(Color.white);
+        else if(colorString.equals("purple"))
+            graphic.setColor(myPurple);
         else
             graphic.setColor(Color.black);
     }

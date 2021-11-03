@@ -1,0 +1,19 @@
+Student student1 = new Student("Renato Martins", 22137731);
+student1.print();
+ Student ID: 22137731  Name: Renato Martins
+Course course1 = new Course("BT1CYS1", "BSc (Hons) Cyber Security");
+course1.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CYS1: BSc (Hons) Cyber Security
+
+student1.enrol(course1);
+student1.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CYS1: BSc (Hons) Cyber Security
+

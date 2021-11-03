@@ -1,0 +1,32 @@
+Student renato = new Student("Renato", 22137731);
+renato.print();
+ Student ID: 22137731, Renato
+Course cyber = new Course("MT1CYS1", "BSc Cyber Security");
+renato.enrol(cyber);
+renato.printCourse();
+ Student ID: 22137731, Renato
+
+ Course MT1CYS1: BSc Cyber Security
+Module co452 = new Module("CO452", "Programming Concepts");
+cyber.addModule(co452);
+ModuleMark renatoco452mark = new ModuleMark(co452);
+renatoco452mark.setMark(64);
+renato.addMark(renatoco452mark);
+renato.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22137731, Renato
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: Programming Concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	64
+
+ No Final Course Grade Yet!

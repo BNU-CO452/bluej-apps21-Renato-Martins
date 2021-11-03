@@ -3,7 +3,7 @@ import java.util.ArrayList;
  * This class stores information about a course
  * that enrolled students may want to complete
  *
- * @author Derek Peacock and Nicholas Day
+ * @author Renato Martins
  * @version 0.1 11/Sep/2020
  */
 public class Course
@@ -19,7 +19,7 @@ public class Course
      
     public Course()
     {
-        this("G400", "BSc Computing");
+        this("MT1CYS1", "BSc Cyber Security");
     }
     
     /**
@@ -43,7 +43,14 @@ public class Course
      */
     public void createModules()
     {
-
+        Module co452 = new Module ("CO452", "Programming Concepts");
+        Module co456 = new Module ("CO456", "Web Development");
+        Module co450 = new Module ("CO450", "Computer Architecture");
+        Module co454 = new Module ("CO454", "Digital Tech");
+        addModule(co452);
+        addModule(co456);
+        addModule(co450);
+        addModule(co454);
     }
     
     public void addModule(Module module)
@@ -59,7 +66,18 @@ public class Course
      */
     public Grades convertToGrade(int mark)
     {
-        return Grades.NS;
+        if(mark>= 0 && mark <= 39)
+            return Grades.F;
+        else if(mark>= 40 && mark <= 49)
+            return Grades.D;
+        else if(mark>= 50 && mark <= 59)
+            return Grades.C;
+        else if (mark>= 60 && mark <= 69)
+            return Grades.B;
+        else if (mark>= 70 && mark <= 100)
+            return Grades.A;
+        else
+            return Grades.NS;
     }
     
     /**
@@ -68,7 +86,19 @@ public class Course
      */
     public Grades calculateGrade(ArrayList<ModuleMark> marks)
     {
-        return Grades.NS;
+        /** This sets the total marks to zero so that we can add them all**/
+        int total = 0;
+        
+        int finalMark = 0;
+        for(ModuleMark mark: marks)
+        {
+            /** Here we are = total to the total of the addition of all marks**/
+            total = total + mark.getValue();
+        }
+        //Calculate Average for the final mark
+        finalMark = total / MAXN_MODULES;
+        finalGrade = convertToGrade(finalMark);
+        return finalGrade;
     }
     
     /**
@@ -89,6 +119,10 @@ public class Course
      */
     public void printModules()
     {
-        System.out.println();
+        for (Module module : modules)
+        {
+            module.print();
+            module.printCredit();
+        }
     }
 }
