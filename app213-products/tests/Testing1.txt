@@ -1,0 +1,24 @@
+Product Assassin1 = new Product(100, "Assassin's Creed");
+Assassin1.print();
+ ID 100: Assassin's Creed stock level: 0
+Assassin1.decreaseQuantity(1);
+Assassin1.print();
+ ID 100: Assassin's Creed stock level: 0
+Assassin1.increaseQuantity(6);
+Assassin1.print();
+ ID 100: Assassin's Creed stock level: 6
+Assassin1.decreaseQuantity(2);
+Assassin1.print();
+ ID 100: Assassin's Creed stock level: 4
+Product Assassin2 = new Product(101, "Assassin's Creed II");
+StockList ShopStock = new StockList();
+ShopStock.add(Assassin1);
+ShopStock.add(Assassin2);
+ShopStock.print();
+
+ Ren's Stock List
+ ====================
+
+ ID 100: Assassin's Creed stock level: 4
+ ID 101: Assassin's Creed II stock level: 0
+

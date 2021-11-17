@@ -1,0 +1,102 @@
+StockList StoreStock = new StockList();
+StockDemo DemoStock = new StockDemo(StoreStock);
+DemoStock.runDemo();
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 0
+ ID 102: Assassin's Creed II stock level: 0
+ ID 103: Battlefield 4 stock level: 0
+ ID 104: Fortnite stock level: 0
+ ID 105: Among Us stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ ID 107: Black Desert stock level: 0
+ ID 108: COD Vanguard stock level: 0
+ ID 109: Halo Infinite stock level: 0
+ ID 110: Elden Ring stock level: 0
+
+ Bought 5 of Assassin's Creed
+ Bought 8 of Assassin's Creed II
+ Bought 8 of Battlefield 4
+ Bought 7 of Fortnite
+ Bought 9 of Among Us
+ Bought 3 of Assassin's Creed IV: Black Flag
+ Bought 9 of Black Desert
+ Bought 5 of COD Vanguard
+ Bought 6 of Halo Infinite
+ Bought 6 of Elden Ring
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 5
+ ID 102: Assassin's Creed II stock level: 8
+ ID 103: Battlefield 4 stock level: 8
+ ID 104: Fortnite stock level: 7
+ ID 105: Among Us stock level: 9
+ ID 106: Assassin's Creed IV: Black Flag stock level: 3
+ ID 107: Black Desert stock level: 9
+ ID 108: COD Vanguard stock level: 5
+ ID 109: Halo Infinite stock level: 6
+ ID 110: Elden Ring stock level: 6
+
+ Sold 4 of Assassin's Creed
+ Sold 6 of Assassin's Creed II
+ Sold 7 of Battlefield 4
+ Sold 5 of Fortnite
+ Sold 7 of Among Us
+ Sold 2 of Assassin's Creed IV: Black Flag
+ Sold 8 of Black Desert
+ Sold 4 of COD Vanguard
+ Sold 4 of Halo Infinite
+ Sold 3 of Elden Ring
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 1
+ ID 102: Assassin's Creed II stock level: 2
+ ID 103: Battlefield 4 stock level: 1
+ ID 104: Fortnite stock level: 2
+ ID 105: Among Us stock level: 2
+ ID 106: Assassin's Creed IV: Black Flag stock level: 1
+ ID 107: Black Desert stock level: 1
+ ID 108: COD Vanguard stock level: 1
+ ID 109: Halo Infinite stock level: 2
+ ID 110: Elden Ring stock level: 3
+
+StoreStock.remove(104);
+ ID 104: Fortnite stock level: 2has been removed
+StoreStock.searchProducts("Assassin's");
+ ID 101: Assassin's Creed stock level: 1
+ ID 102: Assassin's Creed II stock level: 2
+ ID 106: Assassin's Creed IV: Black Flag stock level: 1
+StoreStock.stockLower5();
+ Stock Below 5 
+ ------------- 
+ ID 101: Assassin's Creed stock level: 1
+ Stock Below 5 
+ ------------- 
+ ID 102: Assassin's Creed II stock level: 2
+ Stock Below 5 
+ ------------- 
+ ID 103: Battlefield 4 stock level: 1
+ Stock Below 5 
+ ------------- 
+ ID 105: Among Us stock level: 2
+ Stock Below 5 
+ ------------- 
+ ID 106: Assassin's Creed IV: Black Flag stock level: 1
+ Stock Below 5 
+ ------------- 
+ ID 107: Black Desert stock level: 1
+ Stock Below 5 
+ ------------- 
+ ID 108: COD Vanguard stock level: 1
+ Stock Below 5 
+ ------------- 
+ ID 109: Halo Infinite stock level: 2
+ Stock Below 5 
+ ------------- 
+ ID 110: Elden Ring stock level: 3
