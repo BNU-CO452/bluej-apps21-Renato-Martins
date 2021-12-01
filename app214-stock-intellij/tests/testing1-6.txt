@@ -1,0 +1,203 @@
+C:\Users\Cyber\.jdks\openjdk-17.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\lib\idea_rt.jar=56309:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Cyber\Documents\GitHub\bluej-apps21-Renato-Martins\app214-stock-intellij\out\production\app214-stock-intellij com.company.Main
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 0
+ ID 102: Assassin's Creed II stock level: 0
+ ID 103: Battlefield 4 stock level: 0
+ ID 104: Fortnite stock level: 0
+ ID 105: Among Us stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ ID 107: Black Desert stock level: 0
+ ID 108: COD Vanguard stock level: 0
+ ID 109: Halo Infinite stock level: 0
+ ID 110: Elden Ring stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter the ID for the product
+111
+Please enter the name for the product
+Your input is blank!
+
+Please enter the name for the productGTA
+Product 111, GTA has been added!
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > 111
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter the ID for the product
+111
+Please enter the name for the product
+Your input is blank!
+
+Please enter the name for the productGTA
+Product 111, GTA has been added!
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 0
+ ID 102: Assassin's Creed II stock level: 0
+ ID 103: Battlefield 4 stock level: 0
+ ID 104: Fortnite stock level: 0
+ ID 105: Among Us stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ ID 107: Black Desert stock level: 0
+ ID 108: COD Vanguard stock level: 0
+ ID 109: Halo Infinite stock level: 0
+ ID 110: Elden Ring stock level: 0
+ ID 111: GTA stock level: 0
+ ID 111: GTA stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > remove
+please enter the ID of the product you wish removed
+111
+product has been removed
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 0
+ ID 102: Assassin's Creed II stock level: 0
+ ID 103: Battlefield 4 stock level: 0
+ ID 104: Fortnite stock level: 0
+ ID 105: Among Us stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ ID 107: Black Desert stock level: 0
+ ID 108: COD Vanguard stock level: 0
+ ID 109: Halo Infinite stock level: 0
+ ID 110: Elden Ring stock level: 0
+ ID 111: GTA stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > remove
+please enter the ID of the product you wish removed
+123
+There isn't a product with that ID
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > quit
+
+Process finished with exit code 0

@@ -1,0 +1,234 @@
+C:\Users\Cyber\.jdks\openjdk-17.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\lib\idea_rt.jar=65123:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Cyber\Documents\GitHub\bluej-apps21-Renato-Martins\app214-stock-intellij\out\production\app214-stock-intellij com.company.Main
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 0
+ ID 102: Assassin's Creed II stock level: 0
+ ID 103: Battlefield 4 stock level: 0
+ ID 104: Fortnite stock level: 0
+ ID 105: Among Us stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ ID 107: Black Desert stock level: 0
+ ID 108: COD Vanguard stock level: 0
+ ID 109: Halo Infinite stock level: 0
+ ID 110: Elden Ring stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > buy
+ID of the product you wish to buy
+101
+how much would you like to buy?
+6
+ Bought 6 of Assassin's Creed
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+ID of the product you wish to sell
+101
+how much would you like to sell?
+2
+ Sold 2 of Assassin's Creed
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 4
+ ID 102: Assassin's Creed II stock level: 0
+ ID 103: Battlefield 4 stock level: 0
+ ID 104: Fortnite stock level: 0
+ ID 105: Among Us stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ ID 107: Black Desert stock level: 0
+ ID 108: COD Vanguard stock level: 0
+ ID 109: Halo Infinite stock level: 0
+ ID 110: Elden Ring stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > search
+What are you looking for?Assassin's\
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > search
+What are you looking for?Assassin's
+ ID 101: Assassin's Creed stock level: 4
+ ID 102: Assassin's Creed II stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > low
+Levels below...?
+4
+ Stock Below 1 
+ ------------- 
+ ID 102: Assassin's Creed II stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 103: Battlefield 4 stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 104: Fortnite stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 105: Among Us stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 107: Black Desert stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 108: COD Vanguard stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 109: Halo Infinite stock level: 0
+ Stock Below 1 
+ ------------- 
+ ID 110: Elden Ring stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+
+ Ren's Stock List
+ ====================
+
+ ID 101: Assassin's Creed stock level: 4
+ ID 102: Assassin's Creed II stock level: 0
+ ID 103: Battlefield 4 stock level: 0
+ ID 104: Fortnite stock level: 0
+ ID 105: Among Us stock level: 0
+ ID 106: Assassin's Creed IV: Black Flag stock level: 0
+ ID 107: Black Desert stock level: 0
+ ID 108: COD Vanguard stock level: 0
+ ID 109: Halo Infinite stock level: 0
+ ID 110: Elden Ring stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Renato
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy product
+    Sell:       Sell product
+    Search:     Search for a Product
+    Low:        Check for low amounts
+    Quit:       Quit the program
+
+Please enter your choice > 
