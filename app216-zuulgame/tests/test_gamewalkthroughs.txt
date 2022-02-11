@@ -1,0 +1,105 @@
+C:\Users\Cyber\.jdks\openjdk-17.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\lib\idea_rt.jar=49346:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Cyber\Documents\GitHub\bluej-apps21-Renato-Martins\app216-zuulgame\out\production\untitled104 com.company.Game
+
+I welcome you to MineZuul
+This world is a mix between Zuul and another game.
+⚠️If you don't know what to do maybe 'help' can help   ⚠️
+
+You are currently in the Portal Room.
+Paths: north
+> go north
+You are currently in a Forest.
+Paths: east north west
+> go east
+You are in the Lich's Tower.
+Paths: west
+You found an item!
+This item is labeled: Lich's Staff
+> go west
+You are currently in a Forest.
+Paths: east north west
+> go west
+You are in the Naga's Courtyard.
+Paths: east
+You found an item!
+This item is labeled: Naga's Head
+> go east
+You are currently in a Forest.
+Paths: east north west
+> go north
+You unlocked the door!
+You are currently in the Swamp.
+Paths: east south north west
+> go east
+You are in the Hydra's Lair.
+Paths: west
+You found an item!
+This item is labeled: Hydra's Heads
+> go west
+You are currently in the Swamp.
+Paths: east south north west
+> go west
+You are in the Minoshroom Labyrinth.
+Paths: east
+You found an item!
+This item is labeled: Minoshroom's Axe
+> go east
+You are currently in the Swamp.
+Paths: east south north west
+> go north
+You unlocked the door!
+You are currently in the Dark Forest.
+Paths: east south north west
+> help
+You need to navigate the world
+in order to become king!
+
+Commands that are accepted:
+waypoint  help  go  quit  return  
+> waypoint
+You placed a waypoint in this room.
+Now you can return here by using 'back'.
+> go east
+You are in the Ur-Ghast's Dark Tower.
+Paths: west
+You found an item!
+This item is labeled: Ur-Ghast's tear
+> go west
+You are currently in the Dark Forest.
+Paths: east south north west
+> go west
+You are in the Knight's Stronghold.
+Paths: east
+You found an item!
+This item is labeled: Knight's Armour
+> go east
+You are currently in the Dark Forest.
+Paths: east south north west
+> go north
+You unlocked the door!
+You are currently in a Glacier.
+Paths: east south north west
+> go east
+You are in the Snow's Queen Palace.
+Paths: west
+You found an item!
+This item is labeled: Snow Queen's Crown
+> go west
+You are currently in a Glacier.
+Paths: east south north west
+> go west
+You are in the Yeti's Lair.
+Paths: east
+You found an item!
+This item is labeled: Yeti's Fur
+> go east
+You are currently in a Glacier.
+Paths: east south north west
+> go north
+You unlocked the door!
+You are currently in the Highlands.
+Paths: south north
+> go north
+You are in the Final Castle.
+Paths: south
+You found an item!
+This item is labeled: You are now the King!
